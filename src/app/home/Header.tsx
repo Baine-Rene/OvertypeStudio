@@ -124,7 +124,7 @@ return (
         <p className="font-bold">Overtype Studio</p>
         </div>
         <div className="flex justify-end w-full gap-4">
-        <Button variant="outline" className="hidden font-bold md:inline">
+        <Button variant="ghost" className="hidden font-bold md:inline">
             Book a Call
         </Button>
         <div className="border-r hidden md:inline"></div>
