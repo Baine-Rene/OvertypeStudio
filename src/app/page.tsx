@@ -3,6 +3,7 @@ import { Hero } from "./home/hero";
 import { Case } from "./home/cases";
 import { Feature } from "./home/features";
 import { Stats } from "./home/stats";
+import { Testimonials } from "./home/testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
        <Case/>
        <Feature/>
        <Stats/>
+       <Testimonials/>
        </>
   );
 }
