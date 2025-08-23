@@ -11,7 +11,7 @@ import { format } from "date-fns";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 
-export const Contact1 = () => {
+export const Contact = () => {
   const [date, setDate] = useState<Date | undefined>(new Date());
 
   return (
@@ -25,7 +25,7 @@ export const Contact1 = () => {
               </div>
               <div className="flex flex-col gap-2">
                 <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl text-left font-regular">
-                  Something new
+                  Get in Touch today
                 </h4>
                 <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-sm text-left">
                   Managing a small business today is already tough. Avoid

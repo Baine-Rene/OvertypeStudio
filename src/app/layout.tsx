@@ -7,6 +7,8 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+
+
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
@@ -15,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Overtype Studio",
   description: "Lets build something spectacular",
+   icons: {
+    icon: "/favicon.png"
+  }
 };
 
 export default function RootLayout({

@@ -6,6 +6,7 @@ import { Stats } from "./home/stats";
 import { Testimonials } from "./home/testimonials";
 import { CTA } from "./home/cta";
 import { Footer } from "./home/footer";
+import { Contact } from "./home/contact";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
        <Stats/>
        <Testimonials/>
        <CTA/>
+       <Contact/>
        <Footer/>
        </>
   );
