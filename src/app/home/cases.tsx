@@ -29,11 +29,11 @@ export const Case = () => {
   }, [api, current]);
 
   return (
-    <div className="w-full py-20 lg:py-40">
+    <div className="w-full sm:py-10 lg:py-10 sm:px-10 lg:px-20">
       <div className="container mx-auto">
-        <div className="flex flex-col  gap-10">
-          <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">
-            Trusted by thousands of businesses worldwide
+        <div className="flex flex-col gap-10">
+          <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-semibold text-left">
+            Trusted by Youth Lead Initiatives
           </h2>
           <Carousel setApi={setApi} className="w-full">
             <CarouselContent>
