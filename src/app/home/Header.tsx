@@ -13,7 +13,7 @@ import { Menu, MoveRight, X } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 
-export const Header1 = () => {
+export const Header = () => {
 const navigationItems = [
     {
     title: "Home",

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { MoveRight, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export const Hero5 = () => {
+export const Hero = () => {
   const [titleNumber, setTitleNumber] = useState(0);
   const titles = useMemo(
     () => ["amazing", "new", "wonderful", "beautiful", "smart"],

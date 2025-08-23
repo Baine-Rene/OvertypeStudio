@@ -1,11 +1,13 @@
-import { Header1 } from "./home/Header";
-import { Hero5 } from "./home/hero";
+import { Header } from "./home/Header";
+import { Hero } from "./home/hero";
+import { Case } from "./home/cases";
 
 export default function Home() {
   return (
        <>
-       <Header1 />
-       <Hero5 />
+       <Header />
+       <Hero />
+       <Case/>
        </>
   );
 }
