@@ -5,6 +5,7 @@ import { Feature } from "./home/features";
 import { Stats } from "./home/stats";
 import { Testimonials } from "./home/testimonials";
 import { CTA } from "./home/cta";
+import { Footer } from "./home/footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
        <Stats/>
        <Testimonials/>
        <CTA/>
+       <Footer/>
        </>
   );
 }
