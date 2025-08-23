@@ -4,6 +4,7 @@ import { Case } from "./home/cases";
 import { Feature } from "./home/features";
 import { Stats } from "./home/stats";
 import { Testimonials } from "./home/testimonials";
+import { CTA } from "./home/cta";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
        <Feature/>
        <Stats/>
        <Testimonials/>
+       <CTA/>
        </>
   );
 }
