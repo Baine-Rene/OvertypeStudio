@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
 export const Contact = () => (
-  <div className="w-full py-20 lg:py-40 bg-muted">
+  <div id="contact" className="w-full py-20 lg:py-40 bg-muted">
     <div className="container mx-auto">
       <div className="flex flex-col text-center py-14 gap-4 items-center">
         <div>
