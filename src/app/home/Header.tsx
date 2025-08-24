@@ -121,14 +121,14 @@ export const Header = () => {
                         </NavigationMenuList>
                     </NavigationMenu>
                 </div>
-                <div className="flex lg:justify-center">
+                <div className="w-full text-center sm:text-left">
                     <p className=" text-xl sm:text-2xl md:text-2xl font-bold tracking-tight">Overtype Studio</p>
                 </div>
                 <div className="flex justify-end w-full gap-4">
-                    <div className="border-r hidden md:inline">
+                    <div className="border-r md:inline">
                         <Button
                             variant="ghost"
-                            className="hidden font-bold md:inline"
+                            className=" font-bold md:inline"
                             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
                         >
                             {theme === "light" ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
