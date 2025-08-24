@@ -121,7 +121,7 @@ export const Header = () => {
                         </NavigationMenuList>
                     </NavigationMenu>
                 </div>
-                <div className="w-full text-center sm:text-left">
+                <div className="w-full text-center">
                     <p className=" text-xl sm:text-2xl md:text-2xl font-bold tracking-tight">Overtype Studio</p>
                 </div>
                 <div className="flex justify-end w-full gap-4">

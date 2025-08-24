@@ -7,17 +7,24 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+import Image from "next/image";
 
 export const Case = () => {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
 
-  useEffect(() => {
-    if (!api) {
-      return;
-    }
+  const images = [
+    "/images/green-lens.png",
+    "/images/young-restless.png",
+    "/images/iwip.png",
+    "/images/yahweh-sabaoth.png",
+    "/images/young-eye.png",
+  ];
 
-    setTimeout(() => {
+  useEffect(() => {
+    if (!api) return;
+
+    const timer = setTimeout(() => {
       if (api.selectedScrollSnap() + 1 === api.scrollSnapList().length) {
         setCurrent(0);
         api.scrollTo(0);
@@ -26,6 +33,8 @@ export const Case = () => {
         setCurrent(current + 1);
       }
     }, 1000);
+
+    return () => clearTimeout(timer);
   }, [api, current]);
 
   return (
@@ -36,12 +45,21 @@ export const Case = () => {
           <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-semibold text-left">
             Trusted by Youth Lead Initiatives
           </h2>
-          <Carousel setApi={setApi} className="w-full">
+           <Carousel setApi={setApi} className="w-full">
             <CarouselContent>
-              {Array.from({ length: 15 }).map((_, index) => (
-                <CarouselItem className="basis-1/4 lg:basis-1/6" key={index}>
-                  <div className="flex rounded-md aspect-square bg-muted items-center justify-center p-6">
-                    <span className="text-sm">Logo {index + 1}</span>
+              {images.map((src, index) => (
+                <CarouselItem
+                  className="basis-1/4 lg:basis-1/6"
+                  key={index}
+                >
+                  <div className="flex items-center justify-center p-4">
+                    <Image
+                      src={src}
+                      alt={`Logo ${index + 1}`}
+                      className="rounded-md object-contain w-full h-full"
+                      width={656}
+                      height={674}
+                    />
                   </div>
                 </CarouselItem>
               ))}
