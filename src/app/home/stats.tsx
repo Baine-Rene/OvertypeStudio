@@ -2,7 +2,7 @@ import { MoveDownLeft, MoveUpRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export const Stats = () => (
-  <div className="w-full py-20 lg:py-30">
+  <div className="py-20 lg:py-30 w-full px-4 sm:px-6 md:px-10 lg:px-20 py-12 sm:py-16 md:py-20 lg:py-24">
     <div className="container mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
        
