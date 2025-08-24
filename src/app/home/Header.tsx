@@ -122,27 +122,27 @@ export const Header = () => {
                     </NavigationMenu>
                 </div>
                 <div className="flex lg:justify-center">
-                    <p className=" text-2xl font-bold">Overtype Studio</p>
+                    <p className=" text-xl sm:text-2xl md:text-2xl font-bold tracking-tight">Overtype Studio</p>
                 </div>
                 <div className="flex justify-end w-full gap-4">
                     <div className="border-r hidden md:inline">
                         <Button
-  variant="ghost"
-  className="hidden font-bold md:inline"
-  onClick={() => setTheme(theme === "light" ? "dark" : "light")}
->
-  {theme === "light" ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
-</Button>
+                            variant="ghost"
+                            className="hidden font-bold md:inline"
+                            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+                        >
+                            {theme === "light" ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
+                        </Button>
                     </div>
                     <Button className="font-bold"><a href="#contact">Contact</a></Button>
                 </div>
-                
+
                 <div className="flex w-12 shrink lg:hidden items-end justify-end">
                     <Button variant="ghost" onClick={() => setOpen(!isOpen)}>
                         {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
                     </Button>
                     {isOpen && (
-                        <div className="absolute top-20 border-t flex flex-col w-full right-0 bg-background shadow-lg py-4 px-4 container gap-8">
+                        <div className="absolute top-20 border-t flex flex-col w-full right-0 bg-background shadow-lg py-4 px-6 container gap-8">
                             {navigationItems.map((item) => (
                                 <div key={item.title}>
                                     <div className="flex flex-col gap-2">
