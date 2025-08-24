@@ -4,22 +4,20 @@ import { Case } from "./home/cases";
 import { Feature } from "./home/features";
 import { Stats } from "./home/stats";
 import { Testimonials } from "./home/testimonials";
-import { CTA } from "./home/cta";
 import { Footer } from "./home/footer";
-import { Contact } from "./home/contact";
+import {Contact} from "./home/contact";
 
 export default function Home() {
   return (
-       <>
-       <Header />
-       <Hero />
-       <Case/>
-       <Feature/>
-       <Stats/>
-       <Testimonials/>
-       <CTA/>
-       <Contact/>
-       <Footer/>
-       </>
+    <>
+      <Header />
+      <Hero />
+      <Case />
+      <Feature />
+      <Stats />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </>
   );
 }
