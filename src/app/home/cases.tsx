@@ -22,9 +22,11 @@ export const Case = () => {
   ];
 
   useEffect(() => {
-    if (!api) return;
+    if (!api) {
+      return;
+    }
 
-    const timer = setTimeout(() => {
+    setTimeout(() => {
       if (api.selectedScrollSnap() + 1 === api.scrollSnapList().length) {
         setCurrent(0);
         api.scrollTo(0);
@@ -32,9 +34,7 @@ export const Case = () => {
         api.scrollNext();
         setCurrent(current + 1);
       }
-    }, 1000);
-
-    return () => clearTimeout(timer);
+    }, 2000);
   }, [api, current]);
 
   return (
@@ -45,26 +45,27 @@ export const Case = () => {
           <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-semibold text-left">
             Trusted by Youth Lead Initiatives
           </h2>
-           <Carousel setApi={setApi} className="w-full">
+          <Carousel setApi={setApi} className="w-full">
             <CarouselContent>
               {images.map((src, index) => (
                 <CarouselItem
-                  className="basis-1/4 lg:basis-1/6"
                   key={index}
+                  className="basis-3/4 sm:basis-1/2 md:basis-1/3 lg:basis-1/6 flex justify-center"
                 >
                   <div className="flex items-center justify-center p-4">
                     <Image
                       src={src}
                       alt={`Logo ${index + 1}`}
-                      className="rounded-md object-contain w-full h-full"
-                      width={656}
-                      height={674}
+                      width={200}
+                      height={200}
+                      className="object-contain w-auto h-auto max-w-full max-h-full rounded-md"
                     />
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
           </Carousel>
+
         </div>
       </div>
     </div>
