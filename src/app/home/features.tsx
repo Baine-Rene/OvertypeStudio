@@ -2,7 +2,7 @@ import { User } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export const Feature = () => (
-  <div className="py-20 lg:py-30 w-full px-4 sm:px-6 md:px-10 lg:px-20 py-12 sm:py-16 md:py-20 lg:py-24">
+  <div className="py-20 lg:py-30 w-full px-4 sm:px-6 md:px-10 lg:px-20 sm:py-16 md:py-20">
     <div className="container mx-auto">
       <div className="flex flex-col gap-10">
         <div className="flex gap-4 flex-col items-start">
