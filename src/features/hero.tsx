@@ -23,11 +23,6 @@ export const Hero = () => {
     <section className="w-full flex items-center pt-24 pb-16 md:pt-32 md:pb-24 lg:pt-36 lg:pb-28">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-center gap-8 text-center px-4">
-          {/* Launch Button */}
-          <Button variant="secondary" size="sm" className="gap-4">
-            Read our launch article <MoveRight className="w-4 h-4" />
-          </Button>
-
           {/* Hero Text */}
           <div className="flex flex-col gap-4">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-regular tracking-tighter max-w-3xl">

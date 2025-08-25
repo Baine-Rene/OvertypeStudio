@@ -6,6 +6,7 @@ import { Stats } from "../features/stats";
 import { Testimonials } from "../features/testimonials";
 import { Footer } from "../features/footer";
 import {Contact} from "../features/contact";
+import { About } from "@/features/about";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Case />
+      <About/>
       <Feature />
       <Stats />
       <Testimonials />
