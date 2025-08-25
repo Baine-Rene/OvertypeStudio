@@ -1,11 +1,11 @@
 import { Header } from "../features/Header";
-import { Hero } from "./home/components/hero";
-import { Case } from "./home/components/cases";
-import { Feature } from "./home/components/features";
-import { Stats } from "./home/components/stats";
-import { Testimonials } from "./home/components/testimonials";
+import { Hero } from "../features/hero";
+import { Case } from "../features/cases";
+import { Feature } from "../features/features";
+import { Stats } from "../features/stats";
+import { Testimonials } from "../features/testimonials";
 import { Footer } from "../features/footer";
-import {Contact} from "./home/components/contact";
+import {Contact} from "../features/contact";
 
 export default function Home() {
   return (
