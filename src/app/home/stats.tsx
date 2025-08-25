@@ -9,51 +9,45 @@ export const Stats = () => (
         <div className="flex justify-center items-center">
           <div className="grid text-left grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 w-full gap-2">
             <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
-              <MoveUpRight className="w-4 h-4 mb-10 text-primary" />
+              <MoveUpRight className="w-4 h-4 mb-10 text-green-500" />
               <h2 className="text-4xl tracking-tighter max-w-xl text-left font-regular flex flex-row gap-4 items-end">
-                500.000
+                4,191
                 <span className="text-muted-foreground text-sm tracking-normal">
-                  +20.1%
+                  +49.1%
                 </span>
               </h2>
               <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                Monthly active users
+                Profile views
               </p>
             </div>
             <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
-              <MoveDownLeft className="w-4 h-4 mb-10 text-destructive" />
+              <MoveUpRight className="w-4 h-4 mb-10 text-green-500" />
               <h2 className="text-4xl tracking-tighter max-w-xl text-left font-regular flex flex-row gap-4 items-end">
-                20.105
+               214
                 <span className="text-muted-foreground text-sm tracking-normal">
-                  -2%
+                  +35.4%
                 </span>
               </h2>
               <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                Daily active users
-              </p>
-            </div>
-            <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
-              <MoveUpRight className="w-4 h-4 mb-10 text-primary" />
-              <h2 className="text-4xl tracking-tighter max-w-xl text-left font-regular flex flex-row gap-4 items-end">
-                $523.520
-                <span className="text-muted-foreground text-sm tracking-normal">
-                  +8%
-                </span>
-              </h2>
-              <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                Monthly recurring revenue
+                Profile visits
               </p>
             </div>
             <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
               <MoveUpRight className="w-4 h-4 mb-10 text-primary" />
               <h2 className="text-4xl tracking-tighter max-w-xl text-left font-regular flex flex-row gap-4 items-end">
-                $1052
-                <span className="text-muted-foreground text-sm tracking-normal">
-                  +2%
-                </span>
+                5 
               </h2>
               <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                Cost per acquisition
+                Businesses helped 
+              </p>
+            </div>
+            <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
+              <MoveUpRight className="w-4 h-4 mb-10 text-green-500" />
+              <h2 className="text-4xl tracking-tighter max-w-xl text-left font-regular flex flex-row gap-4 items-end">
+                1,600
+              </h2>
+              <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
+                Reel & post views
               </p>
             </div>
           </div>
