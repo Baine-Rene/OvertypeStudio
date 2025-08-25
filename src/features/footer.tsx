@@ -38,12 +38,12 @@ export const Footer = () => {
           href: "/about",
         },
         {
-          title: "Fundraising",
-          href: "/fundraising",
+          title: "Blog",
+          href: "/blog",
         },
         {
-          title: "Investors",
-          href: "/investors",
+          title: "Templates",
+          href: "/templates",
         },
         {
           title: "Contact us",

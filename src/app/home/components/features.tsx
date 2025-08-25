@@ -12,7 +12,7 @@ export const Feature = () => (
           </div>
           <div className="flex gap-2 flex-col">
             <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-bold text-left">
-              Projects I&apos;ve worked on!
+              Recent Projects!
             </h2>
             <p className="text-lg max-w-xl lg:max-w-lg leading-relaxed tracking-tight text-muted-foreground text-left">
               Managing a small business today is already tough.
