@@ -2,13 +2,13 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { MoveRight, PhoneCall } from "lucide-react";
+import {  PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   const [titleNumber, setTitleNumber] = useState(0);
   const titles = useMemo(
-    () => ["amazing", "new", "wonderful", "beautiful", "smart"],
+    () => ["amazing", "new", "wonderful", "beautiful"],
     []
   );
 
@@ -20,7 +20,7 @@ export const Hero = () => {
   }, [titleNumber, titles]);
 
   return (
-    <section className="w-full flex items-center pt-24 pb-16 md:pt-32 md:pb-24 lg:pt-36 lg:pb-28">
+    <section className="w-full flex items-center pt-34 pb-16 md:pt-32 md:pb-24 lg:pt-36 lg:pb-28">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-center gap-8 text-center px-4">
           {/* Hero Text */}
@@ -48,10 +48,7 @@ export const Hero = () => {
             </h1>
 
             <p className="text-base sm:text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl mx-auto">
-              Managing a small business today is already tough. Avoid further
-              complications by ditching outdated, tedious trade methods. Our
-              goal is to streamline SMB trade, making it easier and faster than
-              ever.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non exercitationem iste molestias harum ea iure commodi eaque quidem perspiciatis laudantium.
             </p>
           </div>
 

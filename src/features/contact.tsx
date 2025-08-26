@@ -14,18 +14,10 @@ export const Contact = () => (
             Get in Touch Today!
           </h3>
           <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl">
-            Managing a small business today is already tough. Avoid further
-            complications by ditching outdated, tedious trade methods. Our goal
-            is to streamline SMB trade, making it easier and faster than ever.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illo nostrum tenetur dolores, dolorem repellendus iste libero non maxime fuga!
           </p>
         </div>
         <div className="flex flex-row gap-4">
-          <a href="tel:+6838830171">
-            <Button className="gap-4 font-semibold" variant="outline">
-              Jump on a call
-              <PhoneCall className="w-4 h-4" />
-            </Button>
-          </a>
           <a href="mailto:info@overtypestudio.com">
             <Button className="gap-4 font-semibold bg-red-500">
               Email
@@ -33,7 +25,7 @@ export const Contact = () => (
             </Button>
           </a>
           <a
-            href="https://wa.me/773033668"
+            href="https://wa.me/0773033668"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -61,10 +61,7 @@ export const Stats = () => (
               Some insights from the past month
             </h2>
             <p className="text-lg lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left">
-              Managing a small business today is already tough. Avoid further
-              complications by ditching outdated, tedious trade methods. Our
-              goal is to streamline SMB trade, making it easier and faster than
-              ever.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe voluptate aliquid blanditiis rem sapiente.
             </p>
           </div>
         </div>
