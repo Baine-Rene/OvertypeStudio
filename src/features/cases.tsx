@@ -42,7 +42,7 @@ export const Case = () => {
     <div className="w-full px-4 sm:px-6 md:px-10 lg:px-20 py-12 sm:py-16 md:py-20 lg:py-24">
       <div className="container mx-auto">
         <div className="flex flex-col gap-10">
-          <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-semibold text-left">
+          <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-bold text-left">
             Trusted by Youth Lead Initiatives
           </h2>
           <Carousel setApi={setApi} className="w-full">

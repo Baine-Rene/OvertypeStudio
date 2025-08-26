@@ -14,7 +14,7 @@ export const Contact = () => (
             Get in Touch Today!
           </h3>
           <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illo nostrum tenetur dolores, dolorem repellendus iste libero non maxime fuga!
+            Whether it’s a new logo, website, or full digital experience, let’s create something that connects with your audience.
           </p>
         </div>
         <div className="flex flex-row gap-4">

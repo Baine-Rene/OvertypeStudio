@@ -48,7 +48,7 @@ export const Hero = () => {
             </h1>
 
             <p className="text-base sm:text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non exercitationem iste molestias harum ea iure commodi eaque quidem perspiciatis laudantium.
+              Creating visual identities and digital experiences that support startups, non-profits, and brands in building their presence and reaching their audience.
             </p>
           </div>
 
