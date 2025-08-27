@@ -58,10 +58,10 @@ export const Stats = () => (
           </div>
           <div className="flex gap-2 flex-col">
             <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-semibold text-left">
-              Some insights from the past month
+              Creative Impact by the Numbers
             </h2>
             <p className="text-lg lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe voluptate aliquid blanditiis rem sapiente.
+             These numbers highlight the reach and engagement built through consistent design work and meaningful visual storytelling. Each project contributes to a growing audience and stronger connections with brands and communities.
             </p>
           </div>
         </div>

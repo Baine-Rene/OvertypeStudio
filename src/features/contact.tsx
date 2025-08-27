@@ -11,7 +11,7 @@ export const Contact = () => (
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-bold">
-            Get in Touch Today!
+            Let’s Start Your Project
           </h3>
           <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl">
             Whether it’s a new logo, website, or full digital experience, let’s create something that connects with your audience.
