@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Overtype Studio",
-  description: "Lets build something spectacular",
+  description: "Creative visuals for growing ideas",
    icons: {
     icon: "/favicon.png"
   }

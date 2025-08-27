@@ -23,7 +23,7 @@ export const About = () => (
              Meet the Founder
             </h2>
             <p className="text-lg lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left">
-              I’m Rene Baine, a computer science student specializing in software engineering. For the past three years, I’ve been creating graphic design work that blends creativity with a strong understanding of technology, helping brands and projects come to life visually and digitally.
+              I’m Rene Baine, a Computer Science student at Trent University specializing in Software Engineering. For the past three years, I’ve been creating graphic design work that blends creativity with a strong understanding of technology, helping brands and projects come to life visually and digitally.
             </p>
           </div>
         </div>
