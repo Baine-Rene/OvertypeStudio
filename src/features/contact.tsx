@@ -18,14 +18,14 @@ export const Contact = () => (
           </p>
         </div>
         <div className="flex flex-row gap-4">
-          <a href="mailto:info@overtypestudio.com">
+          <a href="mailto:studio.overtype@gmail.com">
             <Button className="gap-4 font-semibold bg-red-500">
               Email
               <Mail className="w-4 h-4" />
             </Button>
           </a>
           <a
-            href="https://wa.me/0773033668"
+            href="https://wa.me/773033668"
             target="_blank"
             rel="noopener noreferrer"
           >
