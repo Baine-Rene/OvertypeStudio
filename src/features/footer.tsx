@@ -17,16 +17,13 @@ export const Footer = () => {
         },
         {
           title: "LinkedIn",
-          href: "/statistics",
+          href: "https://www.linkedin.com/company/overtype-studio/",
         },
         {
           title: "X",
-          href: "/dashboards",
+          href: "https://x.com/OvertypeStudio",
         },
-        {
-          title: "Dribble",
-          href: "/recordings",
-        },
+      
       ],
     },
     {
@@ -84,6 +81,7 @@ export const Footer = () => {
                     <Link
                       href={item.href}
                       className="flex justify-between items-center"
+                      
                     >
                       <span className="text-xl">{item.title}</span>
                     </Link>
@@ -96,6 +94,7 @@ export const Footer = () => {
                         key={subItem.title}
                         href={subItem.href}
                         className="flex justify-between items-center"
+                        target="_blank"
                       >
                         <span className="text-background/75">
                           {subItem.title}
