@@ -15,7 +15,7 @@ export const Feature = () => (
               Recent Projects!
             </h2>
             <p className="text-lg max-w-xl lg:max-w-lg leading-relaxed tracking-tight text-muted-foreground text-left">
-              Managing a small business today is already tough.
+              Highlights from my latest design projects.
             </p>
           </div>
         </div>
@@ -35,9 +35,9 @@ export const Feature = () => (
               </div>
             </div>
             <div>
-              <h3 className="text-xl tracking-tight">Changes to IWIP app user interface</h3>
+              <h3 className="text-xl tracking-tight">New IWIP app user interface</h3>
               <p className="text-muted-foreground max-w-xs text-base">
-                Our goal was to create a more comfortable user interface that allows users to navigate the application easier.
+                I designed a new user interface for the IWIP app, focusing on creating a more intuitive and visually engaging experience.
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@ export const Feature = () => (
             <div>
               <h3 className="text-xl tracking-tight">Green Lens Logo</h3>
               <p className="text-muted-foreground max-w-xs text-base">
-                Our goal is to streamline SMB trade, making it easier and faster than ever.
+                Logo design for Green Lens, a Young Eye International series showcasing the creativity and solutions of young changemakers.
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ export const Feature = () => (
             <div>
               <h3 className="text-xl tracking-tight">Concept Logo for Booking app</h3>
               <p className="text-muted-foreground max-w-xs text-base">
-                Our goal is to streamline SMB trade, making it easier and faster than ever.
+                Developed a concept logo for a mobile booking app.
               </p>
             </div>
           </div>
@@ -95,9 +95,9 @@ export const Feature = () => (
               </div>
             </div>
             <div>
-              <h3 className="text-xl tracking-tight">Changes to young & restless Logo</h3>
+              <h3 className="text-xl tracking-tight">Updated young & restless Logo</h3>
               <p className="text-muted-foreground max-w-xs text-base">
-                Our goal is to streamline SMB trade, making it easier and faster than ever.
+                Made subtle refinements to the Young & Restless logo by adjusting its color palette to create a fresher, more cohesive look while maintaining the brand’s original identity.
               </p>
             </div>
           </div>
